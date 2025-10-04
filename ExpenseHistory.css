@@ -1,0 +1,57 @@
+.history-container {
+  padding: 30px;
+  font-family: Arial, sans-serif;
+  background-color: #f3f3f3;
+  min-height: 100vh;
+}
+
+.history-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.history-header h1 {
+  font-size: 28px;
+  color: #333;
+}
+
+.expense-table {
+  width: 90%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.expense-table th,
+.expense-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.expense-table th {
+  background-color: #007bff;
+  color: white;
+}
+
+.expense-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.status-pending {
+  color: orange;
+  font-weight: bold;
+}
+
+.status-approved {
+  color: green;
+  font-weight: bold;
+}
+
+.status-rejected {
+  color: red;
+  font-weight: bold;
+}
